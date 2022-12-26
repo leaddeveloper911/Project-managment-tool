@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 
 exports.seed = (knex) => {
   const date = new Date().toUTCString();
-
+//console.log("seeds")
   return knex('user_account').insert({
     email: 'demo@demo.demo',
     password: bcrypt.hashSync('demo', 10),
