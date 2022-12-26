@@ -32,7 +32,7 @@ dotenv.config();
 // Attempt to import `sails` dependency, as well as `rc` (for loading `.sailsrc` files).
 let sails;
 let rc;
-/* handle errors */
+
 try {
   /* eslint-disable global-require */
   sails = require('sails');
