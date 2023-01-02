@@ -20,7 +20,9 @@ module.exports = {
       type: 'ref',
     },
   },
-
+//request: {
+  //    type: 'ref',
+ //   }
   async fn(inputs) {
     const attachment = await Attachment.create({
       ...inputs.values,
