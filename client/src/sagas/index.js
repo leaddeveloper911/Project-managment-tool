@@ -6,7 +6,7 @@ import { getAccessToken } from '../utils/access-token-storage';
 
 export default function* rootSaga() {
   const accessToken = yield call(getAccessToken);
-
+// yield 
   if (!accessToken) {
     yield call(loginSaga);
   }
