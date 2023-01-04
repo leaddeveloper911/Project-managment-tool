@@ -1,6 +1,6 @@
 import socket from './socket';
 
-/* Actions */
+/* Actions for members*/
 
 const createBoardMembership = (boardId, data) =>
   socket.post(`/boards/${boardId}/memberships`, data);
