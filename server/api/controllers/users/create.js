@@ -64,7 +64,7 @@ module.exports = {
       'organization',
       'subscribeToOwnCards',
     ]);
-
+// check
     const user = await sails.helpers.users
       .createOne(values, this.req)
       .intercept('emailAlreadyInUse', () => Errors.EMAIL_ALREADY_IN_USE)
