@@ -6,6 +6,7 @@
  *
  * For more information on custom configuration, visit:
  * https://sailsjs.com/config/custom
+ * sails
  */
 
 const path = require('path');
