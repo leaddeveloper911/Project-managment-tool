@@ -9,7 +9,7 @@ const Errors = {
     invalidPassword: 'Invalid password',
   },
 };
-
+// token
 module.exports = {
   inputs: {
     emailOrUsername: {
