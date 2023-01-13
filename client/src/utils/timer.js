@@ -5,7 +5,7 @@ const getFullSeconds = ({ startedAt, total }) => {
 
   return total;
 };
-
+// timer 
 export const createTimer = ({ hours, minutes, seconds }) => ({
   startedAt: null,
   total: hours * 60 * 60 + minutes * 60 + seconds,
