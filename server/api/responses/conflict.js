@@ -25,7 +25,7 @@
  *     throw { somethingHappened: optionalData }
  * ```
  */
-
+//A custom response
 module.exports = function conflict(message) {
   const { res } = this;
 
